@@ -1,0 +1,489 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*start header*/
+#header{
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 500px;
+}
+#header #header_div{
+    padding: 50px 100px;
+}
+#header #header_div h1{
+    color: #38ADA9;
+    font-size: 60px;
+    font-family:fantasy;
+}
+#header #header_div p{
+    color: #377C7A;
+    font-size: 20px;
+}
+#header #header_div button{
+    border-radius: 20px;
+    background-color: #38ADA9;
+    width: 300px;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin: 50px 100px;
+}
+/*start  title1*/
+#title1{
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 100px;
+    font-family: monospace;
+}
+/*start grand div1*/
+.div1{
+    background-color: #38ADA9;
+}
+.div1 h1{
+    text-align: center;
+    font-family: serif;
+    padding-top: 20px;
+}
+.div1 .container_divs{
+    display: flex;
+    justify-content: space-around;
+}
+/*start div1*/
+.div1 .container_divs .div1_div1{
+    width: 30%;
+}
+.div1 .container_divs .div1_div1 h2{
+    text-align: center;
+}
+.div1 .container_divs .div1_div1 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start div2*/
+.div1 .container_divs .div1_div2{
+    width: 30%;
+    margin-top: 50px;
+}
+.div1 .container_divs .div1_div2 #img{
+    background-image: url(img/img2.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    margin: 50px auto;
+}
+.div1 .container_divs .div1_div2 .container_btn{
+    display: flex;
+    justify-content: center;
+}
+.div1 .container_divs .div1_div2 button{
+    border-radius: 50px;
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    color:  #38ADA9;
+    padding: 10px 20px;
+}
+/*start div3*/
+.div1 .container_divs .div1_div3{
+    width: 30%;
+}
+.div1 .container_divs .div1_div3 h2{
+    text-align: center;
+}
+.div1 .container_divs .div1_div3 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start title2*/
+#title2{
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 100px;
+    font-family: monospace;
+}
+/*start grand div2*/
+.div2{
+    background-color: #38ADA9;
+}
+.div2 h1{
+    text-align: center;
+    font-family: serif;
+    padding-top: 20px;
+}
+.div2 .container_divs{
+    display: flex;
+    justify-content: space-around;
+}
+/*start div1*/
+.div2 .container_divs .div2_div1{
+    width: 30%;
+}
+.div2 .container_divs .div2_div1 h2{
+    text-align: center;
+}
+.div2 .container_divs .div2_div1 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start div2*/
+.div2 .container_divs .div2_div2{
+    width: 30%;
+    margin-top: 50px;
+}
+.div2 .container_divs .div2_div2 #img{
+    background-image: url(img/img9.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    margin: 30px auto;
+}
+.div2 .container_divs .div2_div2 .container_btn{
+    display: flex;
+    justify-content: center;
+}
+.div2 .container_divs .div2_div2 button{
+    border-radius: 50px;
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    color:  #38ADA9;
+    padding: 10px 20px;
+}
+/*start div3*/
+.div2 .container_divs .div2_div3{
+    width: 30%;
+}
+.div2 .container_divs .div2_div3 h2{
+    text-align: center;
+}
+.div2 .container_divs .div2_div3 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start footer*/
+/*start footer right*/
+.footer{
+    margin-top: 50px;
+    padding: 20px 100px;
+}
+.footer .footer_right{
+    width: 30%;
+    float: left;
+}
+.footer .footer_right img{
+    width: 50%;
+    height: 70px;
+}
+.footer .footer_right p{
+    margin-left: 5%;
+    padding-left: 10px;
+}
+/*start footer divs*/
+.footer .footer_divs{
+    float: left;
+    margin-top: 40px;
+    width: 70%;
+}
+/*start footer divs1*/
+.footer .footer_divs .footer_div1{
+    width: 30%;
+    float: left;
+}
+.footer .footer_divs .footer_div1 ul{
+    list-style-type: none;
+}
+.footer .footer_divs .footer_div1 ul li{
+    margin-top: 10px;
+}
+.footer .footer_divs .footer_div1 ul li a{
+    color: black;
+    text-decoration: none;
+}
+/*start footer divs2*/
+.footer .footer_divs .footer_div2{
+    float: left;
+    width: 30%;
+}
+.footer .footer_divs .footer_div2 ul{
+    list-style-type: none;
+}
+.footer .footer_divs .footer_div2 ul li{
+    margin-top: 10px;
+}
+.footer .footer_divs .footer_div2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+/*start footer divs3*/
+.footer .footer_divs .footer_div3{
+    float: left;
+    width: 30%;
+}
+.footer .footer_divs .footer_div3 ul{
+    list-style-type: none;
+}
+.footer .footer_divs .footer_div3 ul li{
+    margin-top: 10px;
+}
+.footer .footer_divs .footer_div3 ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px){
+/*start header*/
+#header{
+    background-image: url(img/img3.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 500px;
+}
+#header #header_div{
+    padding: 10px auto;
+}
+#header #header_div h1{
+    color: #38ADA9;
+    font-size: 60px;
+    font-family: Arial;
+    text-align: center;
+}
+#header #header_div p{
+    color: #377C7A;
+    font-size: 20px;
+    text-align: center;
+}
+#header #header_div .container_btn{
+        display: flex;
+        justify-content: center;
+}
+#header #header_div .container_btn button{
+    border-radius: 20px;
+    background-color: #38ADA9;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+/*start  title1*/
+#title1{
+    color: #707070;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px 100px;
+    font-family: monospace;
+}
+/*start grand div1*/
+.div1{
+    background-color: #38ADA9;
+}
+.div1 h1{
+    text-align: center;
+    font-family: serif;
+    padding-top: 20px;
+}
+.div1 .container_divs{
+    display: flex;
+    flex-direction: column;
+}
+/*start div1*/
+.div1 .container_divs .div1_div1{
+    width: 100%;
+}
+.div1 .container_divs .div1_div1 h2{
+    text-align: center;
+}
+.div1 .container_divs .div1_div1 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start div2*/
+.div1 .container_divs .div1_div2{
+    width: 100%;
+    margin-top: 50px;
+}
+.div1 .container_divs .div1_div2 #img{
+    background-image: url(img/img2.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    margin: 50px auto;
+}
+.div1 .container_divs .div1_div2 .container_btn{
+    display: flex;
+    justify-content: center;
+}
+.div1 .container_divs .div1_div2 button{
+    border-radius: 50px;
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    color:  #38ADA9;
+    padding: 10px 20px;
+}
+/*start div3*/
+.div1 .container_divs .div1_div3{
+    width: 100%;
+}
+.div1 .container_divs .div1_div3 h2{
+    text-align: center;
+}
+.div1 .container_divs .div1_div3 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start grand div2*/
+.div2{
+    background-color: #38ADA9;
+}
+.div2 h1{
+    text-align: center;
+    font-family: serif;
+    padding-top: 20px;
+}
+.div2 .container_divs{
+    display: flex;
+    flex-direction: column;
+}
+/*start div1*/
+.div2 .container_divs .div2_div1{
+    width: 100%;
+}
+.div2 .container_divs .div2_div1 h2{
+    text-align: center;
+}
+.div2 .container_divs .div2_div1 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start div2*/
+.div2 .container_divs .div2_div2{
+    width: 100%;
+    margin-top: 50px;
+}
+.div2 .container_divs .div2_div2 #img{
+    background-image: url(img/img9.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+    margin: 30px auto;
+}
+.div2 .container_divs .div2_div2 .container_btn{
+    display: flex;
+    justify-content: center;
+}
+.div2 .container_divs .div2_div2 button{
+    border-radius: 50px;
+    background-color: white;
+    width: 300px;
+    font-size: 25px;
+    color:  #38ADA9;
+    padding: 10px 20px;
+}
+/*start div3*/
+.div2 .container_divs .div2_div3{
+    width: 100%;
+}
+.div2 .container_divs .div2_div3 h2{
+    text-align: center;
+}
+.div2 .container_divs .div2_div3 p{
+    text-align: center;
+    padding: 0 50px;
+    color: white;
+    line-height: 30px;
+}
+/*start footer right*/
+    .footer{
+        margin-top: 10px;
+    }
+    .footer .footer_right{
+        width: 100%;
+        float: none;
+    }
+    .footer .footer_right img{
+        display: none;
+    }
+    .footer .footer_right p{
+        margin: 2px auto;
+        text-align: center;
+    }
+    /*start footer divs*/
+    .footer .footer_divs{
+        float: none;
+        margin-top: 10px;
+    }
+    /*start footer divs1*/
+    .footer .footer_divs .footer_div1{
+        width: 100%;
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer_divs .footer_div1 ul{
+        list-style-type: none;
+    }
+    .footer .footer_divs .footer_div1 ul li{
+        margin-top: 10px;
+    }
+    .footer .footer_divs .footer_div1 ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    /*start footer divs2*/
+    .footer .footer_divs .footer_div2{
+        float: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer_divs .footer_div2 ul{
+        list-style-type: none;
+    }
+    .footer .footer_divs .footer_div2 ul li{
+        margin-top: 10px;
+    }
+    .footer .footer_divs .footer_div2 ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    /*start footer divs3*/
+    .footer .footer_divs .footer_div3{
+        float: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer_divs .footer_div3 ul{
+        list-style-type: none;
+    }
+    .footer .footer_divs .footer_div3 ul li{
+        margin-top: 10px;
+    }
+    .footer .footer_divs .footer_div3 ul li a{
+        color: black;
+        text-decoration: none;
+    }
+}

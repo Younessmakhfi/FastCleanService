@@ -1,0 +1,333 @@
+body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+/*start Header*/
+.navbar{
+      background-color: white;
+
+}
+.head-nav{
+    display: flex;
+    padding: 10PX;
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    width: 700px;
+    right: 0px;
+}
+
+.head-nav li{
+    display: inline;
+    color: black;
+    font-family:poppins ;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-right:15px ;
+}
+.top_info{
+    color: grey;
+        width: 80%;
+        border: 10px;
+        border-bottom: 0.1px solid grey;
+        border-width: 1px;
+        padding: 10px;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+
+}
+.top_info #emailTop{
+    color: #38ADA9;
+}
+#logo{
+    width: 250px;
+    float: left;
+    height:50px ;
+}
+.top_items{
+    display: flex;
+    flex-direction: row;
+
+}
+#req{
+    /* position: absolute; */
+    background-color:#38ADA9;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px  40px 40px 40px;
+    padding-left: 8px;
+    text-align: center;
+    font-family: poppins;
+    font-size: 14px;
+    padding: 15px;
+    /* margin-bottom: 10px; */
+}
+.FirstMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.req a{
+    color: white;
+}
+
+/*µµµµµµµµµµµµµµµµµµµ*/
+#head
+{
+    background-image: url('../img/img10.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+
+    padding-left: 50px;
+
+    height: 500px;
+}
+#head  h1
+{
+    color: #38ADA9;
+    font-size: 60px;
+    font-family: Arial;
+}
+#head p
+{
+    color: #38ADA9;
+    font-size: 20px;
+}
+/*start form*/
+main{
+  padding: 0;
+  margin: 0;
+  background-color: #38ADA7B5;
+}
+.f1{
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Antone';
+    background-color:
+}
+.f1 h1{
+  font-size: 20px;
+  font-family: 'Oswald-Medium';
+  text-align: center;
+  color: #C1DBDA;
+}
+.f1 div span input{
+  border-radius: 10%;
+}
+.f1 div span , input{
+  box-sizing: border-box;
+}
+/*space between divs*/
+.f1 div {
+  display: flex;
+  margin: 20px;
+}
+.f1 #service {
+  padding: 20px 5px;
+  float: left;
+  width: 90%;
+  background: #E6E6E6;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+/* Style the span icons*/
+.f1 #spn_service{
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #E6E6E6;
+  font-size: 15px;
+  color: #999;
+  width: 10%;
+  text-align: right;
+}
+.f1 #email {
+  padding: 20px 5px;
+  float: left;
+  width: 90%;
+  background: #E6E6E6;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_email {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #E6E6E6;
+  font-size: 15px;
+  color: #999;
+  width: 10%;
+  text-align: right;
+}
+.f1 #adresse {
+  padding: 20px 5px;
+  float: left;
+  width: 90%;
+  background: #E6E6E6;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_adresse {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #E6E6E6;
+  font-size: 15px;
+  color: #999;
+  width: 10%;
+  text-align: right;
+}
+.f1 #phone {
+  padding: 20px 5px;
+  float: left;
+  width: 90%;
+  background: #E6E6E6;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_phone {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #E6E6E6;
+  font-size: 15px;
+  color: #999;
+  width: 10%;
+  text-align: right;
+}
+
+.f1 #company {
+  padding: 20px 5px;
+  float: left;
+  width: 90%;
+  background: #E6E6E6;
+  border: none;
+  font-size: 15px;
+  font-family: 'Oswald-Medium';
+}
+
+.f1 #spn_company {
+  float: left;
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #E6E6E6;
+  font-size: 15px;
+  color: #999;
+  width: 10%;
+  text-align: right;
+}
+.f1 #message{
+  padding: 20px 70px;
+  width: 80.5%;
+  background-color: #E6E6E6;
+  border: none;
+  font-family: 'Oswald-Medium';
+  font-weight: bold;
+  resize: none;
+}
+/*eror div*/
+.f1 #eror{
+  width: 100%;
+  background: #fff;
+  border: none;
+  font-size: 20px;
+  font-family: 'Oswald-Medium';
+  font-weight: bold;
+  resize: none;
+  text-align: center;
+  background-color: #E6E6E6;
+  color: black;
+  text-transform: capitalize;
+}
+/*end eror div*/
+/*div send*/
+#send_div{
+  display: flex;
+  justify-content: center;
+
+}
+.f1 #send {
+  padding: 20px 5px;
+  float: left;
+  background: #fff;
+  font-size: 25px;
+  font-family: 'Oswald-Medium';
+  width: 30%;
+  color: #999;
+  letter-spacing: 3px;
+}
+/* Clear floats */
+.f1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*end form*/
+//*start footer*/
+/* Footer Style */
+.footer {
+    border-top: 1px solid black;
+    color: #3E3E3E;
+    background-color: white;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.6em;
+    margin-top: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+.footer a:hover{
+    color: #38ADA9;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+}
+
+.footer .row .column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    /* width: -webkit-fill-available; */
+}
+
+.footer .row .column h2 {
+    color: black;
+    font-family: 1em;
+}
+
+.footer .row .column div {
+    padding: 6px 0;
+}
+@media only screen and (max-width: 700px) {
+    .column{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  }
